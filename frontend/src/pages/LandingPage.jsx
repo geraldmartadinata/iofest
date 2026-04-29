@@ -55,7 +55,7 @@ const LandingPage = ({ onNavigate }) => {
                 <Leaf className="w-4 h-4" />
                 Circular Economy Platform
               </span>
-              <h1 className="text-4xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
+              <h1 className="text-3xl sm:text-4xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
                 Ubah Limbah Jadi <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-green-400">Rupiah</span>
               </h1>
               <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0">
@@ -101,7 +101,7 @@ const LandingPage = ({ onNavigate }) => {
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Cara Kerja EcoIncentive</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Cara Kerja EcoIncentive</h2>
               <p className="text-gray-600 max-w-2xl mx-auto">3 langkah mudah untuk mulai berkontribusi pada lingkungan dan mendapatkan keuntungan.</p>
             </div>
             <div className="grid md:grid-cols-3 gap-10">
@@ -110,7 +110,7 @@ const LandingPage = ({ onNavigate }) => {
                 { step: '2', title: 'Request Pickup', desc: 'Isi form estimasi berat dan alamat. Mitra terdekat kami akan menjemput limbah Anda.' },
                 { step: '3', title: 'Dapatkan Poin', desc: 'Mitra menimbang aktual limbah dan poin otomatis masuk ke saldo Anda.' }
               ].map((item, idx) => (
-                <div key={idx} className="relative bg-gray-50 rounded-3xl p-8 hover:bg-emerald-50 transition-colors border border-gray-100">
+                <div key={idx} className="relative bg-gray-50 rounded-3xl p-6 md:p-8 hover:bg-emerald-50 transition-colors border border-gray-100">
                   <div className="w-14 h-14 bg-emerald-500 text-white rounded-2xl flexItems-center justify-center text-2xl font-bold mb-6 flex items-center shadow-lg shadow-emerald-200">
                     {item.step}
                   </div>

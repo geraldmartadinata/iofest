@@ -41,7 +41,7 @@ const UserDashboard = ({ onNavigate }) => {
         {/* Left Column: Points & History */}
         <div className="md:col-span-5 space-y-6">
           {/* Points Balance Card */}
-          <div className="bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-3xl p-6 text-white shadow-lg shadow-emerald-200 relative overflow-hidden">
+          <div className="bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-3xl p-5 sm:p-6 text-white shadow-lg shadow-emerald-200 relative overflow-hidden">
             <div className="absolute top-0 right-0 p-4 opacity-20"><Wallet className="w-24 h-24" /></div>
             <p className="text-emerald-100 font-medium mb-1">Current Points Balance</p>
             <h2 className="text-4xl font-extrabold mb-4">12,450 <span className="text-xl font-medium opacity-80">pts</span></h2>
@@ -51,7 +51,7 @@ const UserDashboard = ({ onNavigate }) => {
           </div>
 
           {/* Transaction History */}
-          <div className="bg-white rounded-3xl border border-gray-100 p-6 shadow-sm">
+          <div className="bg-white rounded-3xl border border-gray-100 p-5 sm:p-6 shadow-sm">
             <h3 className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
               <History className="w-5 h-5 text-gray-400" /> Transaction History
             </h3>
@@ -81,7 +81,7 @@ const UserDashboard = ({ onNavigate }) => {
 
         {/* Right Column: Request Form */}
         <div className="md:col-span-7">
-          <div className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm">
+          <div className="bg-white rounded-3xl border border-gray-100 p-5 sm:p-8 shadow-sm">
             <div className="mb-8">
               <h2 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
                 <PlusCircle className="w-6 h-6 text-emerald-500" /> Request Pickup
